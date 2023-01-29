@@ -1,0 +1,1395 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 02:57:01
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |Linux
+PHP VERSION_________: 7.4.11                                |7.3.33
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.3.33 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache
+DOC ROOT____________: "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+REQUEST URL_________: "http://schoolplus.veritas-interactive.com"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+URL_NEW_____________: "http://schoolplus.veritas-interactive.com"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/veritasinteracti/schoolplus.veritas-interactive.com/20230110_schoolplus_[HASH]_20230110143814_archive.zip"
+ARCHIVE SIZE________: 60.92MB
+CREATED_____________: 2023-01-10 14:38:14
+WP VERSION__________: 6.1.1
+DUP VERSION_________: 1.5.1
+LICENSE_____________: Free version
+DB VERSION__________: 10.4.14
+DB FILE SIZE________: 12.16MB
+DB TABLES___________: 20
+DB ROWS_____________: 1821
+URL HOME____________: http://localhost/schoolplus
+URL CORE____________: http://localhost/schoolplus
+URL CONTENT_________: http://localhost/schoolplus/wp-content
+URL UPLOAD__________: http://localhost/schoolplus/wp-content/uploads
+URL PLUGINS_________: http://localhost/schoolplus/wp-content/plugins
+URL MU PLUGINS______: http://localhost/schoolplus/wp-content/mu-plugins
+URL THEMES__________: http://localhost/schoolplus/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/schoolplus
+PATH ABS____________: C:/xampp/htdocs/schoolplus
+PATH WPCONFIG_______: C:/xampp/htdocs/schoolplus
+PATH WPCONTENT______: C:/xampp/htdocs/schoolplus/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/schoolplus/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/schoolplus/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/schoolplus/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/schoolplus/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "localhost/schoolplus/"
+
+PLUGINS
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-Spam
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:elementskit-lite/elementskit-lite.php             ][ON:true ]  ElementsKit Lite
+PLUGIN [SLUG:essential-addons-for-elementor-lite/essential_adons_elementor.php][ON:false]  Essential Addons for Elementor
+PLUGIN [SLUG:everest-forms/everest-forms.php                   ][ON:true ]  Everest Forms
+PLUGIN [SLUG:hello.php                                         ][ON:false]  Hello Dolly
+PLUGIN [SLUG:creame-whatsapp-me/joinchat.php                   ][ON:true ]  Joinchat
+
+********************************************************************************
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.08728]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.06284]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+LOG-TIME[DELTA:   0.00502]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00372]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00615]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00205]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00092]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/classes/database/class.db.php:639] MSG: SELECT command denied to user 'veritasinteracti_splus'@'localhost' for table `mysql`.`user`
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'veritasinteracti_splus' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/classes/validation/class.validation.database.service.php[743]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/classes/validation/class.validation.abstract.item.php[45]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/classes/validation/class.validation.manager.php[229]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/classes/validation/class.validation.manager.php[202]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[168]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[93]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/main.installer.php[56]
+
+LOG-TIME[DELTA:   0.00054]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.00792]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00032]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00063]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00033]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00029]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 02:57:56
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "SchoolPlus"
+HOME URL NEW________: "http://schoolplus.veritas-interactive.com"
+SITE URL NEW________: "http://schoolplus.veritas-interactive.com/"
+CONTENT URL NEW_____: "http://schoolplus.veritas-interactive.com/wp-content"
+UPLOAD URL NEW______: "http://schoolplus.veritas-interactive.com/wp-content/uploads"
+PLUGINS URL NEW_____: "http://schoolplus.veritas-interactive.com/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://schoolplus.veritas-interactive.com/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+SITE PATH NEW_______: "/home/veritasinteracti/schoolplus.veritas-interactive.com/"
+CONTENT PATH NEW____: "/home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content"
+UPLOAD PATH NEW_____: "/home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer"
+	FILE: "/home/veritasinteracti/schoolplus.veritas-interactive.com/20230110_schoolplus_[HASH]_20230110143814_installer-backup.php"
+	FILE: "/home/veritasinteracti/schoolplus.veritas-interactive.com/20230110_schoolplus_[HASH]_20230110143814_archive.zip"
+	FILE: "/home/veritasinteracti/schoolplus.veritas-interactive.com/installer.php"
+	FILE: "/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer-bootlog__eafb9e2-10143814.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230110_schoolplus_[HASH]_20230110143814_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.5669 sec. - Files processed: 1,582 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1582
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0141 sec. - Files processed: 1,822 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1822
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.9505 sec. - Files processed: 2,118 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2118
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.7395 sec. - Files processed: 2,590 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2590
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 6.0899 sec. - Files processed: 3,268 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3268
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.5884 sec. - Files processed: 3,534 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3534
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 6.2497 sec. - Files processed: 3,580 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3580
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.9099 sec. - Files processed: 3,667 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3667
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0015 sec. - Files processed: 3,715 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3715
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.5002 sec. - Files processed: 4,159 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4159
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 7.3581 sec. - Files processed: 4,344 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4344
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0368 sec. - Files processed: 4,357 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4357
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 9.4534 sec. - Files processed: 4,388 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4388
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.7851 sec. - Files processed: 4,417 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4417
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0019 sec. - Files processed: 4,672 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4672
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2054 sec. - Files processed: 5,097 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5097
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.3412 sec. - Files processed: 5,318 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5318
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.5465 sec. - Files processed: 5,464 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5464
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1916 sec. - Files processed: 5,696 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5696
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.6896 sec. - Files processed: 5,801 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5801
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.9682 sec. - Files processed: 5,990 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5990
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.3759 sec. - Files processed: 6,045 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6045
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1856 sec. - Files processed: 6,355 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6355
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 6.3990 sec. - Files processed: 6,666 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6666
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 6.3290 sec. - Files processed: 6,783 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6783
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.4381 sec. - Files processed: 6,916 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6916
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.9046 sec. - Files processed: 7,062 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7062
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1062 sec. - Files processed: 7,257 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7257
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 7.1557 sec. - Files processed: 7,945 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7945
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.5737 sec. - Files processed: 8,194 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8194
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.3694 sec. - Files processed: 8,431 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8431
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 7.1550 sec. - Files processed: 8,480 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8480
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 6.2859 sec. - Files processed: 8,508 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8508
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.5898 sec. - Files processed: 8,623 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8623
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.6838 sec. - Files processed: 8,849 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8849
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.7250 sec. - Files processed: 9,055 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9055
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 9872
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 03:01:45 - RUNTIME: 228.8205 sec. - Files processed: 9,267 of 9,267
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 03:01:45
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_evf_entries"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_evf_entries]
+TABLE "wp_evf_entrymeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_evf_entrymeta]
+TABLE "wp_evf_sessions"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_evf_sessions]
+TABLE "wp_e_events"_____________________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_e_submissions"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_actions_log]
+TABLE "wp_e_submissions_values"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_values]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     236] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    1333] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     238] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      23] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.37 -- Build Server: 10.4.14
+FILE SIZE:	dup-database__[HASH].sql (8.86MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`veritasinteracti_splus`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	190
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_e_events"_____________________________________[ROWS:     8]
+TABLE "wp_e_submissions"________________________________[ROWS:     0]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:     0]
+TABLE "wp_e_submissions_values"_________________________[ROWS:     0]
+TABLE "wp_evf_entries"__________________________________[ROWS:     0]
+TABLE "wp_evf_entrymeta"________________________________[ROWS:     0]
+TABLE "wp_evf_sessions"_________________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   236]
+TABLE "wp_postmeta"_____________________________________[ROWS:  1333]
+TABLE "wp_posts"________________________________________[ROWS:   238]
+TABLE "wp_term_relationships"___________________________[ROWS:     6]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     2]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     2]
+TABLE "wp_usermeta"_____________________________________[ROWS:    23]
+TABLE "wp_users"________________________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 0.2412 sec.
+STEP-2 COMPLETE @ 03:01:46 - RUNTIME: 0.2413 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: C:/xampp/htdocs/schoolplus REPLACE: /home/veritasinteracti/schoolplus.veritas-interactive.com/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: C:\xampp\htdocs\schoolplus REPLACE: /home/veritasinteracti/schoolplus.veritas-interactive.com/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: C:/xampp/htdocs/schoolplus REPLACE: /home/veritasinteracti/schoolplus.veritas-interactive.com [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://localhost/schoolplus REPLACE: http://schoolplus.veritas-interactive.com/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://localhost/schoolplus REPLACE: http://schoolplus.veritas-interactive.com [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 03:01:46
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:    40]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/schoolplus" ======================> "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+	SEARCH[urlnd]  2:"http://localhost/schoolplus" =====================> "http://schoolplus.veritas-interactive.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_evf_entries"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_evf_entrymeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_evf_sessions"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/schoolplus" ======================> "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+	SEARCH[urlnd]  2:"http://localhost/schoolplus" =====================> "http://schoolplus.veritas-interactive.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_events][0]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   196][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/schoolplus" ======================> "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+	SEARCH[urlnd]  2:"http://localhost/schoolplus" =====================> "http://schoolplus.veritas-interactive.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1333][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/schoolplus" ======================> "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+	SEARCH[urlnd]  2:"http://localhost/schoolplus" =====================> "http://schoolplus.veritas-interactive.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	
+STEP-3 CHUNK STOP @ 03:01:51 - RUNTIME: 5.0946 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   238][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/schoolplus" ======================> "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+	SEARCH[urlnd]  2:"http://localhost/schoolplus" =====================> "http://schoolplus.veritas-interactive.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/schoolplus" ======================> "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+	SEARCH[urlnd]  2:"http://localhost/schoolplus" =====================> "http://schoolplus.veritas-interactive.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     6][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/schoolplus" ======================> "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+	SEARCH[urlnd]  2:"http://localhost/schoolplus" =====================> "http://schoolplus.veritas-interactive.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/schoolplus" ======================> "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+	SEARCH[urlnd]  2:"http://localhost/schoolplus" =====================> "http://schoolplus.veritas-interactive.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/schoolplus" ======================> "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+	SEARCH[urlnd]  2:"http://localhost/schoolplus" =====================> "http://schoolplus.veritas-interactive.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+--------------------------------------
+SCANNED:	Tables:20 	|	 Rows:1804 	|	 Cells:11751 
+UPDATED:	Tables:4 	|	 Rows:341 	|	 Cells:437 
+ERRORS:		0 
+RUNTIME:	9.861200 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/veritasinteracti/schoolplus.veritas-interactive.com/wp-config.php
+New htaccess file created:/home/veritasinteracti/schoolplus.veritas-interactive.com/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://schoolplus.veritas-interactive.com/"
+	UPDATE DB_NAME ""veritasinteracti_splus""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/veritasinteracti/schoolplus.veritas-interactive.com"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:01:56 - RUNTIME: 4.5535 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home/veritasinteracti/schoolplus.veritas-interactive.com/index.php
+E_USER_DEPRECATED The $control_id argument is deprecated since version 3.5.0!
+	FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/modules/dev-tools/deprecation.php[304]
+	--- TRACE ---
+	FUNCTION: trigger_error                 FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/modules/dev-tools/deprecation.php[304]
+	CLASS___: Elementor\Modules\DevTools\Deprecation->deprecated_argumentFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[523]
+	CLASS___: Elementor\Controls_Manager->registerFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[501]
+	CLASS___: Elementor\Controls_Manager->register_controlFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/modules/controls/init.php[52]
+	CLASS___: ElementsKit_Lite\Modules\Controls\Init->image_chooseFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[465]
+	CLASS___: Elementor\Controls_Manager->register_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[589]
+	CLASS___: Elementor\Controls_Manager->get_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[608]
+	CLASS___: Elementor\Controls_Manager->get_controlFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[779]
+	CLASS___: Elementor\Controls_Manager->add_control_to_stackFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[421]
+	CLASS___: Elementor\Controls_Stack->add_controlFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[1518]
+	CLASS___: Elementor\Controls_Stack->start_controls_sectionFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/base/document.php[1677]
+	CLASS___: Elementor\Core\Base\Document->register_document_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/kits/documents/kit.php[155]
+	CLASS___: Elementor\Core\Kits\Documents\Kit->register_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2327]
+	CLASS___: Elementor\Controls_Stack->init_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[496]
+	CLASS___: Elementor\Controls_Stack->get_stackFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[300]
+	CLASS___: Elementor\Controls_Stack->get_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2414]
+	CLASS___: Elementor\Controls_Stack->sanitize_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[1107]
+	CLASS___: Elementor\Controls_Stack->get_dataFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2161]
+	CLASS___: Elementor\Controls_Stack->get_init_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/base/base-object.php[142]
+	CLASS___: Elementor\Core\Base\Base_Object->ensure_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/base/base-object.php[40]
+	CLASS___: Elementor\Core\Base\Base_Object->get_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/kits/manager.php[117]
+	CLASS___: Elementor\Core\Kits\Manager->get_current_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/breakpoints/breakpoint.php[130]
+	CLASS___: Elementor\Core\Breakpoints\Breakpoint->init_valueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/breakpoints/breakpoint.php[71]
+	CLASS___: Elementor\Core\Breakpoints\Breakpoint->get_valueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[776]
+	CLASS___: Elementor\Core\Files\CSS\Base->init_stylesheetFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[496]
+	CLASS___: Elementor\Core\Files\CSS\Base->get_stylesheetFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[666]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[217]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/dynamic-tags/manager.php[485]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[264]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/helpers/utils.php[262]
+	CLASS___: ElementsKit_Lite\Utils::render_elementor_content_cssFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/modules/header-footer/activator.php[81]
+	CLASS___: ElementsKit_Lite\Modules\Header_Footer\Activator::template_idsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/modules/header-footer/activator.php[60]
+	CLASS___: ElementsKit_Lite\Modules\Header_Footer\Activator->hooksFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/plugin.php[565]
+	FUNCTION: do_action_ref_array           FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp.php[797]
+	CLASS___: WP->main                      FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/functions.php[1332]
+	FUNCTION: wp                            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-blog-header.php[16]
+	FUNCTION: require                       FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/index.php[17]
+	FUNCTION: require_once                  FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/wp_test_script_eafb9e2-10143814.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_USER_DEPRECATED The $control_id argument is deprecated since version 3.5.0!
+	FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/modules/dev-tools/deprecation.php[304]
+	--- TRACE ---
+	FUNCTION: trigger_error                 FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/modules/dev-tools/deprecation.php[304]
+	CLASS___: Elementor\Modules\DevTools\Deprecation->deprecated_argumentFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[523]
+	CLASS___: Elementor\Controls_Manager->registerFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[501]
+	CLASS___: Elementor\Controls_Manager->register_controlFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/modules/controls/init.php[56]
+	CLASS___: ElementsKit_Lite\Modules\Controls\Init->ajax_select2FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[465]
+	CLASS___: Elementor\Controls_Manager->register_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[589]
+	CLASS___: Elementor\Controls_Manager->get_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[608]
+	CLASS___: Elementor\Controls_Manager->get_controlFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[779]
+	CLASS___: Elementor\Controls_Manager->add_control_to_stackFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[421]
+	CLASS___: Elementor\Controls_Stack->add_controlFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[1518]
+	CLASS___: Elementor\Controls_Stack->start_controls_sectionFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/base/document.php[1677]
+	CLASS___: Elementor\Core\Base\Document->register_document_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/kits/documents/kit.php[155]
+	CLASS___: Elementor\Core\Kits\Documents\Kit->register_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2327]
+	CLASS___: Elementor\Controls_Stack->init_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[496]
+	CLASS___: Elementor\Controls_Stack->get_stackFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[300]
+	CLASS___: Elementor\Controls_Stack->get_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2414]
+	CLASS___: Elementor\Controls_Stack->sanitize_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[1107]
+	CLASS___: Elementor\Controls_Stack->get_dataFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2161]
+	CLASS___: Elementor\Controls_Stack->get_init_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/base/base-object.php[142]
+	CLASS___: Elementor\Core\Base\Base_Object->ensure_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/base/base-object.php[40]
+	CLASS___: Elementor\Core\Base\Base_Object->get_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/kits/manager.php[117]
+	CLASS___: Elementor\Core\Kits\Manager->get_current_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/breakpoints/breakpoint.php[130]
+	CLASS___: Elementor\Core\Breakpoints\Breakpoint->init_valueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/breakpoints/breakpoint.php[71]
+	CLASS___: Elementor\Core\Breakpoints\Breakpoint->get_valueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[776]
+	CLASS___: Elementor\Core\Files\CSS\Base->init_stylesheetFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[496]
+	CLASS___: Elementor\Core\Files\CSS\Base->get_stylesheetFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[666]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[217]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/dynamic-tags/manager.php[485]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[264]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/helpers/utils.php[262]
+	CLASS___: ElementsKit_Lite\Utils::render_elementor_content_cssFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/modules/header-footer/activator.php[81]
+	CLASS___: ElementsKit_Lite\Modules\Header_Footer\Activator::template_idsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/modules/header-footer/activator.php[60]
+	CLASS___: ElementsKit_Lite\Modules\Header_Footer\Activator->hooksFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/plugin.php[565]
+	FUNCTION: do_action_ref_array           FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp.php[797]
+	CLASS___: WP->main                      FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/functions.php[1332]
+	FUNCTION: wp                            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-blog-header.php[16]
+	FUNCTION: require                       FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/index.php[17]
+	FUNCTION: require_once                  FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/wp_test_script_eafb9e2-10143814.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_USER_DEPRECATED The $control_id argument is deprecated since version 3.5.0!
+	FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/modules/dev-tools/deprecation.php[304]
+	--- TRACE ---
+	FUNCTION: trigger_error                 FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/modules/dev-tools/deprecation.php[304]
+	CLASS___: Elementor\Modules\DevTools\Deprecation->deprecated_argumentFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[523]
+	CLASS___: Elementor\Controls_Manager->registerFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[501]
+	CLASS___: Elementor\Controls_Manager->register_controlFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/modules/controls/init.php[60]
+	CLASS___: ElementsKit_Lite\Modules\Controls\Init->widgetareaFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[465]
+	CLASS___: Elementor\Controls_Manager->register_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[589]
+	CLASS___: Elementor\Controls_Manager->get_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[608]
+	CLASS___: Elementor\Controls_Manager->get_controlFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/managers/controls.php[779]
+	CLASS___: Elementor\Controls_Manager->add_control_to_stackFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[421]
+	CLASS___: Elementor\Controls_Stack->add_controlFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[1518]
+	CLASS___: Elementor\Controls_Stack->start_controls_sectionFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/base/document.php[1677]
+	CLASS___: Elementor\Core\Base\Document->register_document_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/kits/documents/kit.php[155]
+	CLASS___: Elementor\Core\Kits\Documents\Kit->register_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2327]
+	CLASS___: Elementor\Controls_Stack->init_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[496]
+	CLASS___: Elementor\Controls_Stack->get_stackFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[300]
+	CLASS___: Elementor\Controls_Stack->get_controlsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2414]
+	CLASS___: Elementor\Controls_Stack->sanitize_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[1107]
+	CLASS___: Elementor\Controls_Stack->get_dataFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/includes/base/controls-stack.php[2161]
+	CLASS___: Elementor\Controls_Stack->get_init_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/base/base-object.php[142]
+	CLASS___: Elementor\Core\Base\Base_Object->ensure_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/base/base-object.php[40]
+	CLASS___: Elementor\Core\Base\Base_Object->get_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/kits/manager.php[117]
+	CLASS___: Elementor\Core\Kits\Manager->get_current_settingsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/breakpoints/breakpoint.php[130]
+	CLASS___: Elementor\Core\Breakpoints\Breakpoint->init_valueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/breakpoints/breakpoint.php[71]
+	CLASS___: Elementor\Core\Breakpoints\Breakpoint->get_valueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[776]
+	CLASS___: Elementor\Core\Files\CSS\Base->init_stylesheetFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[496]
+	CLASS___: Elementor\Core\Files\CSS\Base->get_stylesheetFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[666]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[217]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/dynamic-tags/manager.php[485]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/base.php[264]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementor/core/files/css/post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/helpers/utils.php[262]
+	CLASS___: ElementsKit_Lite\Utils::render_elementor_content_cssFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/modules/header-footer/activator.php[81]
+	CLASS___: ElementsKit_Lite\Modules\Header_Footer\Activator::template_idsFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/plugins/elementskit-lite/modules/header-footer/activator.php[60]
+	CLASS___: ElementsKit_Lite\Modules\Header_Footer\Activator->hooksFILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/plugin.php[565]
+	FUNCTION: do_action_ref_array           FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/class-wp.php[797]
+	CLASS___: WP->main                      FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-includes/functions.php[1332]
+	FUNCTION: wp                            FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-blog-header.php[16]
+	FUNCTION: require                       FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/index.php[17]
+	FUNCTION: require_once                  FILE: /home/veritasinteracti/schoolplus.veritas-interactive.com/wp-content/wp_test_script_eafb9e2-10143814.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+====================================
+LOG-TIME[/home/veritasinteracti/schoolplus.veritas-interactive.com/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.02291]  MESSAGE:END RENDER PAGE
